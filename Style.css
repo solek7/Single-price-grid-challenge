@@ -1,0 +1,156 @@
+body{
+    text-align: center;
+}
+main{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 700px;
+    margin: 10rem auto 10rem auto;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+}
+.Join-our-community h2{
+    color: hsl(71, 73%, 54%);
+}
+.Join-our-community p{
+    color:  hsl(218, 22%, 67%);
+    line-height: 2;
+}
+.Join-our-community{
+    display: block;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    margin: 3rem ;
+    padding-right:   1rem ;
+}
+.Mounthly-Subscription{
+    position: static;
+    bottom: 0px;
+    left: 0px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin-right: 0;
+    height: auto;
+    float: left;
+    text-align: left;
+}
+.Why-us{
+    position: static;
+    bottom: 0px;
+    right:  0px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin-left: 0;
+    text-align: left;
+}
+.Why-us p{
+    color:  hsl(204, 43%, 93%);
+    line-height: 1.6;
+}
+.Why-us h2 , .Mounthly-Subscription h2 , .dollar{
+    color: white;
+}
+.dollar {
+    font-size: 2rem;
+    padding: 1rem 0.5rem 1rem 1rem;
+}
+p , h1 , h2{
+     font-family: 'Karla', sans-serif;;
+}
+.Mounthly-Subscription h2 , .Mounthly-Subscription p {
+  padding-left: 1rem;
+}
+.Mounthly-Subscription p{
+    color: white;
+}
+.per-month{
+    color: hsl(204, 43%, 93% , 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 71px;
+    border: 1px solid #359f12;
+    border-radius: 8px;
+    background: #56ff1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#56ff1d), to(#359f12));
+    background: -moz-linear-gradient(top, #56ff1d, #359f12);
+    background: linear-gradient(to bottom, #56ff1d, #359f12);
+    -webkit-box-shadow: #5aff1e 0px 0px 40px 0px;
+    -moz-box-shadow: #5aff1e 0px 0px 40px 0px;
+    box-shadow: #5aff1e 0px 0px 40px 0px;
+    text-shadow: #26720d 1px 1px 1px;
+    font: normal normal bold 20px trebuchet ms;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 2rem 1rem;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #4be319;
+    background: #67ff23;
+    background: -webkit-gradient(linear, left top, left bottom, from(#67ff23), to(#40bf16));
+    background: -moz-linear-gradient(top, #67ff23, #40bf16);
+    background: linear-gradient(to bottom, #67ff23, #40bf16);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #359f12;
+    background: -webkit-gradient(linear, left top, left bottom, from(#359f12), to(#359f12));
+    background: -moz-linear-gradient(top, #359f12, #359f12);
+    background: linear-gradient(to bottom, #359f12, #359f12);
+}
