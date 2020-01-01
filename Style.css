@@ -4,8 +4,8 @@ body{
 main{
     text-align: center;
     border: 1px solid black;
-    border-radius: 10px;
-    width: 700px;
+    border-radius: 8px;
+    width: 70%;
     margin: 10rem auto 10rem auto;
 }
 h1{
@@ -21,46 +21,51 @@ h1{
 .Join-our-community{
     display: block;
     text-align: left;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 3rem ;
     padding-right:   1rem ;
 }
 .Mounthly-Subscription{
-    position: static;
-    bottom: 0px;
-    left: 0px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 1rem;
+    display: inline-block;
+    width: 45%;
+    margin-right: 0;
+    height: auto;
+    clear: left;
+    text-align: left;
+    border-radius: 8px;
+    margin-left: 0rem;
+    vertical-align: bottom;
+
+}
+.Why-us h2 , .Mounthly-Subscription h2 , .dollar{
+    color: white;
+    line-height: 2;
+}
+.Why-us p{
+    color:  hsl(204, 43%, 93% , 0.8);
+    line-height: 1.6;
+}
+.Why-us{
     background-color: hsl(179, 62%, 43%);
     padding: 10px;
     display: block;
-    width: 50%;
-    margin-right: 0;
-    height: auto;
-    float: left;
-    text-align: left;
-}
-.Why-us{
-    position: static;
-    bottom: 0px;
-    right:  0px;
-    background-color: hsl(179, 62%, 43%);
-    padding: 10px;
-    display: inline-block;
     width: 40%;
     height: auto;
     margin-left: 0;
     text-align: left;
+    clear: right;
+    float: right;
+    padding: 3.56%;
+    border-radius: 8px;
 }
-.Why-us p{
-    color:  hsl(204, 43%, 93%);
-    line-height: 1.6;
-}
-.Why-us h2 , .Mounthly-Subscription h2 , .dollar{
-    color: white;
-}
+
+
 .dollar {
     font-size: 2rem;
-    padding: 1rem 0.5rem 1rem 1rem;
+    padding-right: 1rem ;
 }
 p , h1 , h2{
      font-family: 'Karla', sans-serif;;
@@ -74,37 +79,14 @@ p , h1 , h2{
 .per-month{
     color: hsl(204, 43%, 93% , 0.4);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Mounthly-Subscription{
+    position: relative;
+    right: 19px;
+}
+.Why-us{
+    position: relative;
+    top: 2px;
+}
 
 
 
@@ -122,7 +104,7 @@ p , h1 , h2{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    padding: 12px 71px;
+    padding: 12px 5.5rem;
     border: 1px solid #359f12;
     border-radius: 8px;
     background: #56ff1d;
